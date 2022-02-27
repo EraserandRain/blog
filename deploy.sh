@@ -3,7 +3,8 @@ export LC_ALL=C
 current_date=$(date -d '0 day' '+%Y%m%d')
 set -e
 yarn build
-# cd ./public/
+cd ./public/
+echo "基于 vuepress + github-pages 的个人博客" > README.md
 git init
 git add -A
 git commit -m "deploy_${current_date}"

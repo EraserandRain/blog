@@ -2,7 +2,8 @@
 title: yarn 的源管理器
 author: EraserRain
 date: '2022-02-25'
-tags: yarn
+tags: 
+	- yarn
 categories: Frontend
 ---
 ## 1. 安装

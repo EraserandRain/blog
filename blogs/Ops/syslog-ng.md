@@ -2,6 +2,9 @@
 title: syslog-ng 服务配置系统日志
 author: EraserRain
 date: '2022-02-25'
+tags: 
+    - syslog
+categories: Ops
 ---
 ## 1. 安装 `syslog-ng`
 

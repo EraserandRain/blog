@@ -2,15 +2,13 @@
 title: rsyslog 服务配置系统日志
 author: EraserRain
 date: '2022-02-25'
-tags: syslog
+tags: 
+    - syslog
 categories: Ops
 ---
 ## **1. 介绍**
 
-<aside>
-💡 rsyslog：Rocket-fast system for log
-
-</aside>
+<aside>rsyslog：Rocket-fast system for log</aside>
 
 Centos 6 版本之后，系统默认安装 rsyslog 服务。
 
@@ -22,7 +20,7 @@ rpm -aq |grep rsyslog
 ### 组件
 
 - 主程序：`/usr/sbin/rsyslogd`
-- 配置文件：**`/etc/rsyslog.conf`，**`/etc/rsyslog.d*.conf`
+- 配置文件：`/etc/rsyslog.conf`，`/etc/rsyslog.d*.conf`
 - 库文件：`/lib64/rsyslog/*.so`
 
 ## **2. 配置文件**
@@ -124,8 +122,10 @@ input(type="imfile"
 
 多个 imfile 模块导入 添加多个 input 即可。
 
-> 注：符号链接会破坏 imfile 读取，可能引起 `imfile: '' is FILE but DIRECTORY expected - ignored)` 报错，input 中 imfile 文件路径不能包含符号链接。
-> 
+::: warning
+注：符号链接会破坏 imfile 读取，可能引起 `imfile: '' is FILE but DIRECTORY expected - ignored)` 报错，input 中 imfile 文件路径不能包含符号链接。
+
+:::
 
 ### 指定采集 mysql 日志转发
 
@@ -140,8 +140,9 @@ syslog
 
 `[mysqld]` 中定义的为常规日志和慢查询日志，`[mysqld_safe]` 中定义的为错误日志。
 
-> 注意：`mysqld` 中设置的文件及其目录归属为 `mysql:mysql`，权限 664 即可。
-> 
+::: warning
+注意：`mysqld` 中设置的文件及其目录归属为 `mysql:mysql`，权限 664 即可。
+:::
 
 `/etc/rsyslog.conf` 引入 mysql 模块
 
