@@ -4,7 +4,7 @@
   "author": "reco_luan",
   "description": "blog",
   "scripts": {
-    "dev": "vuepress dev . --open --host \"localhost\"",
+    "dev": "vuepress dev . --temp .temp --open --host \"localhost\"",
     "build": "vuepress build .",
     "deploy": "bash deploy.sh"
   },
@@ -14,9 +14,12 @@
     "vuepress-plugin-auto-sidebar": "^2.3.2",
     "vuepress-plugin-cursor-effects": "^1.1.2",
     "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-plugin-one-click-copy": "^1.0.6",
     "vuepress-theme-reco": "1.6.10"
   },
   "dependencies": {
-    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5"
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-copyright": "^1.0.2"
   }
 }

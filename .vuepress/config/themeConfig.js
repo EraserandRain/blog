@@ -13,6 +13,8 @@ const themeConfig = {
     lastUpdated: "Last Updated",
     nav,
     subSidebar: 'auto',
-    smoothScroll: true
+    smoothScroll: true,
+    author: "EraserRain",
+    
 }
 module.exports = themeConfig

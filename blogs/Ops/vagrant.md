@@ -15,9 +15,8 @@ categories: Ops
 
 ## 2. 概述
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2da7f00-801d-4782-972e-f2b7dd5fb668/Untitled.png)
-
 `Vagrant` 依赖于 `provider` 提供的虚拟化支持，不同的 `provider` 提供不同的底层虚拟化方式。
+
 `virtualbox`、`hyper-v`、`vmware workstation`、`docker` 等都为 `provider`。
 
 ## 3. Install

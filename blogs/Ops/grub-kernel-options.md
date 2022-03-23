@@ -1,19 +1,19 @@
 ---
 title: 常用的 Grub 内核启动参数设置
 author: EraserRain
-date: '2022-03-08'
+date: '2022-03-09'
 tags: 
     - grub
     - centos
 categories: Ops
 ---
 
-## Reference
+## 1. Reference
 【[GNU GRUB Manual 2.06](https://www.gnu.org/software/grub/manual/grub/grub.html)】
-## 概述
+## 2. 概述
 Grub 可以为内核启动提供多种参数，使用这些参数可以很方便的对系统进行调试或配置。参数的格式为 `name=value` 。
 
-## 参数详情
+## 3. 参数详情
 
 ### `selinux`
 
@@ -32,7 +32,7 @@ init=/bin/bash
 
 ### `rdloaddriver`
 
-详见 【】，可以解决盘符漂移问题。
+详见 【[ CentOS 安装时盘符漂移问题](https://www.notion.so/CentOS-759262a48ae541a59f42f0bc2e41c2a3)】，可以解决盘符漂移问题。
 
 ### `nomodeset`
 
