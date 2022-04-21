@@ -29,8 +29,8 @@ mysql 配置文件： `/etc/my.cnf`
 show variables like 'max_connections';
 ```
 
-修改配置，MySQL默认的最大连接数为100，MySQL服务器允许的最大连接数16384。
-
+MySQL默认的最大连接数为100，MySQL服务器允许的最大连接数16384。
+`my.cnf` 配置
 ```bash
 [mysqld]
 max_connections = 256
@@ -83,18 +83,16 @@ delete from mysql.procs_priv where host='%' or host='';
 ```
 
 ### 禁止远程连接
-
-```sql
-//  /etc/my.cnf
+`my.cnf` 配置
+```bash
 [mysqld]
 bind_address=localhost
 skip-networking=on
 ```
 
 ### 日志配置
-
+`my.cnf` 配置
 ```sql
-//  /etc/my.cnf
 [mysqld]
 general_log_file=/server/abchosting/database/mysql-general.log
 general_log=0
