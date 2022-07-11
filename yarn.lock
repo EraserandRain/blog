@@ -1040,7 +1040,7 @@
 
 "@shigma/stringify-object@^3.3.0":
   version "3.3.0"
-  resolved "https://registry.npmmirror.com/@shigma/stringify-object/-/stringify-object-3.3.0.tgz#c6611dcdf650024a9f6397580f821accd3021be3"
+  resolved "https://registry.npmmirror.com/@shigma/stringify-object/-/stringify-object-3.3.0.tgz"
   integrity sha512-tO5pn6RJp8m1ldYtqY3GEQA6+Nqp1cIZVrVx7iFVPx0YfhMqfplwrvyrQPP1cCwuyRoAyDr/BxVZYt+USm8LXQ==
   dependencies:
     get-own-enumerable-property-symbols "^3.0.0"
@@ -4151,7 +4151,7 @@ get-intrinsic@^1.0.2, get-intrinsic@^1.1.0, get-intrinsic@^1.1.1:
 
 get-own-enumerable-property-symbols@^3.0.0:
   version "3.0.2"
-  resolved "https://registry.npmmirror.com/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.2.tgz#b5fde77f22cbe35f390b4e089922c50bce6ef664"
+  resolved "https://registry.npmmirror.com/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.2.tgz"
   integrity sha512-I0UBV/XOz1XkIJHEUDMZAbzCThU/H8DxmSfmdGcKPnVhu2VfFqr34jr9777IyaTYvxjedWhqVIilEDsCdP5G6g==
 
 get-stream@^4.0.0, get-stream@^4.1.0:
@@ -5017,7 +5017,7 @@ is-number@^7.0.0:
 
 is-obj@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.npmmirror.com/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
+  resolved "https://registry.npmmirror.com/is-obj/-/is-obj-1.0.1.tgz"
   integrity sha512-l4RyHgRqGN4Y3+9JHVrNqO+tN0rV5My76uW5/nuO4K1b6vw5G8d/cmFjP9tRfEsdhZNt0IFdZuK/c2Vr4Nb+Qg==
 
 is-obj@^2.0.0:
@@ -5071,7 +5071,7 @@ is-regex@^1.0.4, is-regex@^1.1.4:
 
 is-regexp@^2.0.0:
   version "2.1.0"
-  resolved "https://registry.npmmirror.com/is-regexp/-/is-regexp-2.1.0.tgz#cd734a56864e23b956bf4e7c66c396a4c0b22c2d"
+  resolved "https://registry.npmmirror.com/is-regexp/-/is-regexp-2.1.0.tgz"
   integrity sha512-OZ4IlER3zmRIoB9AqNhEggVxqIH4ofDns5nRrPS6yQxXE1TPCUpFznBfRQmQa8uC+pXqjMnukiJBxCisIxiLGA==
 
 is-resolvable@^1.0.0:
@@ -5929,9 +5929,9 @@ multicast-dns@^6.0.1:
     thunky "^1.0.2"
 
 nan@^2.12.1:
-  version "2.15.0"
-  resolved "https://registry.npmmirror.com/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
-  integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
+  version "2.16.0"
+  resolved "https://registry.npmmirror.com/nan/-/nan-2.16.0.tgz#664f43e45460fb98faf00edca0bb0d7b8dce7916"
+  integrity sha512-UdAqHyFngu7TfQKsCBgAA6pWDkT8MAO7d0jyOecVhN5354xbLqdn8mV9Tat9gepAupm0bt2DbeaSC8vS52MuFA==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -8723,7 +8723,7 @@ vuepress-plugin-auto-sidebar@^2.3.2:
 
 vuepress-plugin-code-copy@^1.0.6:
   version "1.0.6"
-  resolved "https://registry.npmmirror.com/vuepress-plugin-code-copy/-/vuepress-plugin-code-copy-1.0.6.tgz#6431dab764b48b5b203e4936d98b1943651ce4ad"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-code-copy/-/vuepress-plugin-code-copy-1.0.6.tgz"
   integrity sha512-FiqwMtlb4rEsOI56O6sSkekcd3SlESxbkR2IaTIQxsMOMoalKfW5R9WlR1Pjm10v6jmU661Ex8MR11k9IzrNUg==
 
 vuepress-plugin-container@^2.0.2:
@@ -8736,7 +8736,7 @@ vuepress-plugin-container@^2.0.2:
 
 vuepress-plugin-copyright@^1.0.2:
   version "1.0.2"
-  resolved "https://registry.npmmirror.com/vuepress-plugin-copyright/-/vuepress-plugin-copyright-1.0.2.tgz#d5cc73af82028e073d4cd82e3ef99012ad8f79cc"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-copyright/-/vuepress-plugin-copyright-1.0.2.tgz"
   integrity sha512-SWiyqqU8StPGB6WxzVTbRMUyyE0g6lJoP9SDoOua5PHUeawd8XdDBAaCCGRrmd2JDMvCDZlNYHTHgsKJncuU2g==
   dependencies:
     "@shigma/stringify-object" "^3.3.0"
@@ -8785,7 +8785,7 @@ vuepress-plugin-nuggets-style-copy@^1.0.3:
 
 vuepress-plugin-one-click-copy@^1.0.6:
   version "1.0.6"
-  resolved "https://registry.npmmirror.com/vuepress-plugin-one-click-copy/-/vuepress-plugin-one-click-copy-1.0.6.tgz#71563b1851013705fab6d48b0bda6028dddbf0e7"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-one-click-copy/-/vuepress-plugin-one-click-copy-1.0.6.tgz"
   integrity sha512-apFCcsBwk9IEDm5HwD6dwor30rl8gr0VjPkmrQlFSR2KD7OjK3ZUwioeEvbrcAiZBi35V6YgndLAHksJXRfpnQ==
 
 vuepress-plugin-sitemap@^2.3.1:
