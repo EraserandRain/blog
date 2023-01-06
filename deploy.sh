@@ -1,13 +1,15 @@
 #!/bin/bash
 export LC_ALL=C
-current_date=$(date -d '0 day' '+%Y%m%d')
+CURRENT_DATE=$(date -d '0 day' '+%Y%m%d')
+
 set -e
-yarn build
+pnpm docs:build
 cd ./public/
-echo "基于 vuepress + github-pages 的个人博客" > README.md
+echo "基于 vitepress + typescript + github-pages 的个人博客" > README.md
+echo "【[https://eraserandrain.github.io/](https://eraserandrain.github.io/)】" >> README.md
 git init
 git add -A
-git commit -m "deploy_${current_date}"
+git commit -m "deploy_${CURRENT_DATE}"
 git push -f git@github.com:EraserandRain/EraserandRain.github.io.git master:master
 cd -
 echo 'deploy success!'

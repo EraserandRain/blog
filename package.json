@@ -1,26 +1,25 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "author": "reco_luan",
-  "description": "blog",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev . --temp .temp --open --host \"localhost\"",
-    "build": "vuepress build .",
-    "deploy": "bash deploy.sh"
+    "docs:dev": "npx vitepress dev docs",
+    "docs:build": "npx vitepress build docs",
+    "docs:preview": "npx vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
   },
   "devDependencies": {
-    "@vuepress-reco/vuepress-plugin-pagation": "^1.6.0",
-    "parcel-bundler": "^1.12.5",
-    "vuepress": "1.8.2",
-    "vuepress-plugin-auto-sidebar": "^2.3.2",
-    "vuepress-plugin-cursor-effects": "^1.1.2",
-    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
-    "vuepress-plugin-one-click-copy": "^1.0.6",
-    "vuepress-theme-reco": "1.6.10"
-  },
-  "dependencies": {
-    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
-    "vuepress-plugin-code-copy": "^1.0.6",
-    "vuepress-plugin-copyright": "^1.0.2"
+    "vitepress": "1.0.0-alpha.35",
+    "vue": "^3.2.45"
   }
 }

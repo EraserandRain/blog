@@ -133,5 +133,8 @@ dist
 .vscode/
 
 # project public
-public/
-!.vuepress/public/
+public
+!public/img/
+
+# vitepress
+docs/.vitepress/cache
