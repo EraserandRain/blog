@@ -4,7 +4,7 @@ author: EraserRain
 date: '2022-02-25'
 tags: 
     - syslog
-categories: Ops
+section: coding
 ---
 ## 1. 安装 `syslog-ng`
 

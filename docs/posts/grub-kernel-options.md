@@ -5,7 +5,7 @@ date: '2022-03-09'
 tags: 
     - grub
     - centos
-categories: Ops
+section: coding
 ---
 
 ## 1. Reference

@@ -6,7 +6,7 @@ tags:
     - curl
     - ssl
     - centos
-categories: Ops
+section: coding
 ---
 ## 1. Reference
 【[PHP-把curl扩展的SSL版本从NSS改为OpenSSL](https://blog.51cto.com/happyliu/1838622)】

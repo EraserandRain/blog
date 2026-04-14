@@ -5,7 +5,7 @@ date: '2022-02-27'
 tags: 
     - vagrant
     - 虚拟化
-categories: Ops
+section: coding
 ---
 
 ## 1. Reference

@@ -1,25 +1,22 @@
-const theme = {
+/**
+ * @type {import('vitepress').DefaultTheme.Config}
+ */
+const themeConfig = {
     lastUpdatedText: 'Last Updated',
-    logo: './img/toad.jpg',
     siteTitle: "EraserRain's Blog",
+    search: {
+        provider: 'local',
+    },
     nav: [
-        { text: "Home", link: "/" },
-        {
-            text: "Blog",
-            items: [
-                {text: 'Frontend', link: '/frontend'},
-                {text: 'Backend', link: '/backend'},
-                {text: 'Ops', link: '/ops'},
-                {text: 'Others', link: '/others'},
-            ]
-        }
+        { text: 'Home', link: '/' },
+        { text: 'AI', link: '/ai/' },
+        { text: 'Coding', link: '/coding/' },
+        { text: 'Life', link: '/life/' },
+        { text: 'Archive', link: '/archive/' },
     ],
-    socialLinks: [
-        { icon: "github", link: "https://github.com/EraserandRain" }
-    ],
-    docFooter: {
-        prev: '⬅',
-        next: '➡'
-    }
+    sidebar: false,
+    socialLinks: [{ icon: 'github', link: 'https://github.com/EraserandRain' }],
+    outline: [2, 3],
 }
-module.exports = theme
+
+module.exports = themeConfig

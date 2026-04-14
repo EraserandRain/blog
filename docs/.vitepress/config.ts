@@ -2,16 +2,14 @@
  * @type {import('vitepress').UserConfig}
  */
 const themeConfig = require('./config/themeConfig')
-// const plugins = require('./config/plugins')
-
 
 module.exports = {
     lang: 'en-US',
     title: "EraserRain's Blog",
-    description: "",
+    description: 'Notes on AI, coding, and life.',
     appearance: 'dark',
     lastUpdated: true,
-    cleanUrls: 'without-subfolders',
+    cleanUrls: true,
     outDir: '../public',
-    themeConfig
+    themeConfig,
 }

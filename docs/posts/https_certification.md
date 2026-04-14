@@ -5,7 +5,7 @@ date: '2022-07-11'
 tags: 
     - openssl
     - https
-categories: Ops
+section: coding
 ---
 
 ## 1. Reference

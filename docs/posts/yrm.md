@@ -4,7 +4,7 @@ author: EraserRain
 date: '2022-02-25'
 tags: 
 	- yarn
-categories: Frontend
+section: coding
 ---
 ## 1. 安装
 
