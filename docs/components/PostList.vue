@@ -24,6 +24,8 @@
 </template>
 
 <script setup>
+import { sectionLabel } from '../lib/posts.mjs'
+
 defineProps({
   posts: {
     type: Array,
@@ -38,12 +40,6 @@ defineProps({
     default: 'Add a new post and it will show up automatically.',
   },
 })
-
-function sectionLabel(section) {
-  if (section === 'ai') return 'AI'
-  if (section === 'life') return 'Life'
-  return 'Coding'
-}
 </script>
 
 <style scoped>

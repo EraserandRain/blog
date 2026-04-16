@@ -22,9 +22,10 @@ features:
 
 <script setup>
 import PostList from './components/PostList.vue'
+import { takeLatestPosts } from './lib/posts.mjs'
 import { data as posts } from './posts.data.mjs'
 
-const latestPosts = posts.slice(0, 6)
+const latestPosts = takeLatestPosts(posts, 6)
 </script>
 
 ## Latest Notes

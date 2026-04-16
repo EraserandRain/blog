@@ -1,8 +1,9 @@
 <script setup>
 import PostList from '../components/PostList.vue'
+import { filterPostsBySection } from '../lib/posts.mjs'
 import { data as posts } from '../posts.data.mjs'
 
-const codingPosts = posts.filter((post) => post.section === 'coding')
+const codingPosts = filterPostsBySection(posts, 'coding')
 </script>
 
 # Coding

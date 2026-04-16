@@ -17,18 +17,14 @@
 </template>
 
 <script setup>
+import { sectionLabel } from '../lib/posts.mjs'
+
 defineProps({
   groups: {
     type: Array,
     default: () => [],
   },
 })
-
-function sectionLabel(section) {
-  if (section === 'ai') return 'AI'
-  if (section === 'life') return 'Life'
-  return 'Coding'
-}
 </script>
 
 <style scoped>

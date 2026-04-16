@@ -1,8 +1,9 @@
 <script setup>
 import PostList from '../components/PostList.vue'
+import { filterPostsBySection } from '../lib/posts.mjs'
 import { data as posts } from '../posts.data.mjs'
 
-const aiPosts = posts.filter((post) => post.section === 'ai')
+const aiPosts = filterPostsBySection(posts, 'ai')
 </script>
 
 # AI
